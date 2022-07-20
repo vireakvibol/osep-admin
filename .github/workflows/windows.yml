@@ -38,11 +38,5 @@ jobs:
     - name: Check lint
       run: yarn run lint
 
-    - name: Run headless unit test
-      run: yarn run test
-
-    - name: Run headless e2e test
-      run: yarn run e2e
-
     - name: Build the app
       run: yarn run electron:build
